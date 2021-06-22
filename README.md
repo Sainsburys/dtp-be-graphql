@@ -31,7 +31,7 @@ to authenticate with the API.
 
 ## Running the server
 
-You can start the server with `yarn start`. It should watch for changes and reStart when files are changed.
+You can start the server with `yarn start`. It should watch for changes and restart when files are changed.
 
 ## Testing
 
