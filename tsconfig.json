@@ -1,14 +1,6 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "target": "es2017",
-    "outDir": "dist",
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "preserveSymlinks": true,
-    "allowJs": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

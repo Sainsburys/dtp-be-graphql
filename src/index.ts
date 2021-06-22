@@ -1,19 +1,26 @@
-import {
-  APIGatewayProxyEvent,
-  APIGatewayProxyResult,
-  Handler,
-} from 'aws-lambda'
+import { ApolloServer, gql } from 'apollo-server'
 
-const handler: Handler<APIGatewayProxyEvent, APIGatewayProxyResult> = async (
-  event: APIGatewayProxyEvent
-) => {
-  return {
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    statusCode: 200,
-    body: JSON.stringify(event),
-  }
+const typeDefs = gql`
+    type Film {
+        title: String
+    }
+
+    type Query {
+        film(id: String): Film!
+        upcoming: [Film!]!
+        search(query: String): [Film]!
+    }
+`
+const resolvers = {
+    Query: {
+        film: () => {}
+    }
 }
 
-export default handler
+const server = new ApolloServer({ typeDefs, resolvers })
+
+const port = process.env.SERVER_PORT ?? 3000
+
+server.listen({ port }).then(({ url }) => {
+  console.log(`🚀  Server ready at ${url}`)
+})
