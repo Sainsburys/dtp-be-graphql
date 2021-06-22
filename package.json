@@ -10,7 +10,8 @@
     "start": "ts-node-dev src/index.ts",
     "test": "mocha",
     "clean": "rm -rf ./dist ./node_modules yarn-*.log",
-    "lint": "eslint 'src/**/*.{j,t}s'"
+    "lint": "eslint 'src/**/*.{j,t}s'",
+    "format-readme": "prettier -w README.md"
   },
   "dependencies": {
     "apollo-server": "^2.25.1",

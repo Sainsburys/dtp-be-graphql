@@ -48,6 +48,10 @@ issues with `yarn lint --fix`. The config is fairly permissive, so don't stress 
 
 You can use any library, framework, etc that you like. There's no right or wrong way to complete the task.
 
+We're not looking for you to implement this in any particular way. The test is to get to know how you solve problems,
+the kind of considerations you make when writing code, how you communicate, etc. Treat the task like you would your
+everyday work.
+
 **The most important piece of advice is to talk about what you're doing, why you're doing it, any caveats/trade-offs
 you're making, etc. Please ask questions if anything is unclear: this is a collaborative task, not a passive
 observation!**
