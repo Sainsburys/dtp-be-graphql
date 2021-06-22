@@ -11,6 +11,7 @@ to authenticate with the API.
 ### You should aim to support:
 
 - Looking up a film by its ID
+  - `120` is the ID for The Fellowship of the Ring, if you're looking for one to test with
 - Listing upcoming films
 - Searching for films
 
