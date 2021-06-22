@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node-dev src/index.ts",
-    "test": "ts-mocha --watch 'src/**/*.test.{t,j}s'",
+    "test": "mocha",
     "clean": "rm -rf ./dist ./node_modules yarn-*.log",
     "lint": "eslint 'src/**/*.{j,t}s'"
   },
@@ -32,7 +32,6 @@
     "mocha": "^9.0.1",
     "prettier": "^2.3.1",
     "sinon": "^11.1.1",
-    "ts-mocha": "next",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.3.4"
   }

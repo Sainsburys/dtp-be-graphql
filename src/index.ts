@@ -1,25 +1,4 @@
-import { ApolloServer, gql } from 'apollo-server';
-
-const typeDefs = gql`
-  type Film {
-    title: String
-  }
-
-  type Query {
-    film(id: String): Film!
-    upcoming: [Film!]!
-    search(query: String): [Film]!
-  }
-`;
-const resolvers = {
-  Query: {
-    film: () => {
-      console.log('foo');
-    },
-  },
-};
-
-const server = new ApolloServer({ typeDefs, resolvers });
+import { server } from './api';
 
 const port = process.env.SERVER_PORT ?? 3000;
 
