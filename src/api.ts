@@ -1,4 +1,4 @@
-import { ApolloServer, gql, IResolvers } from 'apollo-server';
+import { ApolloServer, gql } from 'apollo-server';
 
 const typeDefs = gql`
   type Film {
