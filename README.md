@@ -15,7 +15,7 @@ to authenticate with the API.
 - Searching for films by their title
 - Listing upcoming films
 
-### Users of the API expect the following information to be available:
+### Users of the API expect the following information to be available for each film:
 
 - Title
 - Year of release
@@ -51,7 +51,7 @@ You can use any library, framework, etc that you like. There's no right or wrong
 
 We're not looking for you to implement this in any particular way. The test is to get to know how you solve problems,
 the kind of considerations you make when writing code, how you communicate, etc. Treat the task like you would your
-everyday work.
+everyday work. Don't stress about implementing every single thing: it's probably impossible to finish this whole task!
 
 **The most important piece of advice is to talk about what you're doing, why you're doing it, any caveats/trade-offs
 you're making, etc. Please ask questions if anything is unclear: this is a collaborative task, not a passive
