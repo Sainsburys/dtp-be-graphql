@@ -2,7 +2,7 @@
 
 ## Expectations
 
-You should create a GraphQL API which allows users to get information about films and TV programs.
+You are asked to implement a GraphQL API which allows users to get information about films and TV programs.
 
 You can use [TMDb REST API](https://www.themoviedb.org/documentation/api) as a source of data. There are various methods
 available for specific film/TV series, lists, searching, etc. The API key `c857fa67fba523ad3ce66df18e7ab279` can be used
