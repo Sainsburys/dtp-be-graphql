@@ -12,8 +12,8 @@ to authenticate with the API.
 
 - Looking up a film by its ID
   - `120` is the ID for The Fellowship of the Ring, if you're looking for one to test with
+- Searching for films by their title
 - Listing upcoming films
-- Searching for films
 
 ### Users of the API expect the following information to be available:
 
