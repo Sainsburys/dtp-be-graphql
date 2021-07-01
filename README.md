@@ -19,8 +19,8 @@ to authenticate with the API.
 
 - Title
 - Year of release
-- Director's name
-- Length
+- A link to the IMDB page
+- How long the film is
 - ID
 
 ### You could also add support, if you have time, for:
